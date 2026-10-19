@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Stories</title><link rel="stylesheet" href="styles.css"></head><body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="HERE home">
+      <div class="logo" aria-hidden="true"><span class="logo-orbit"></span></div>
+      <div><strong>HERE</strong><small>Life • services • community</small></div>
+    </a>
+    <nav class="links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="explore.html">Explore Sweden</a>
+      <a href="community.html">Community</a>
+      <a href="mypage.html">My Page</a>
+      <a href="stories.html">Stories</a>
+      <a href="news.html">News</a>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+<section class="page-hero"><div><span class="kicker">stories</span><h1>New beginnings, in their own words.</h1><p class="lead">People talk about language, displacement, pollution, return travel and finding a place in Sweden.</p></div><img src="assets/community.png" alt="Newcomers socializing in Stockholm"></section>
+<section class="section grid2"><div class="card"><div class="voice"><div class="avatar">N</div><div><strong>Noor, 27 · Syria to Stockholm</strong><div class="stars">★★★★★ LinguaLens</div><p>“I still study Swedish, but my life does not have to wait. I can speak to a nurse, read a school message and go to an interview now.”</p></div></div></div><div class="card"><div class="voice"><div class="avatar">M</div><div><strong>Maya, 30 · Lebanon to Stockholm</strong><div class="stars">★★★★☆ AirHalo</div><p>“The air on some return routes changes how I travel. I never expected clean air to become part of trip planning.”</p></div></div></div><div class="card"><div class="voice"><div class="avatar">O</div><div><strong>Oleh, 34 · Ukraine to Solna</strong><div class="stars">★★★★☆ LinguaLens</div><p>“I like that I can choose when to use the glasses. I do not want language to decide when I am allowed to participate.”</p></div></div></div><div class="card"><div class="voice"><div class="avatar">L</div><div><strong>Lea, 33 · Philippines to Stockholm</strong><div class="stars">★★★★★ Community</div><p>“The website helped with information, but the community page helped with loneliness. Translation helps conversations start. Friendship still takes time.”</p></div></div></div></section>
+<section class="section grid2"><div class="card"><span class="kicker">interview</span><h3>“I can ask before I feel ready.”</h3><p>Samira says ear audio translation made official appointments less stressful. “Before, I prepared every sentence. Now I can listen first and answer normally.”</p></div><div class="card"><span class="kicker">question</span><h3>What happens when the translation is wrong?</h3><p>Users most often mention medical vocabulary, dialects and emotionally sensitive conversations. Public mode now shows a confidence warning when the system is unsure.</p></div></section>
+<section class="section"><h2>Most read this week</h2><div class="grid3"><div class="card"><h3>First winter in Sweden</h3><p>Six newcomers share what surprised them most.</p></div><div class="card"><h3>Going home for a short visit</h3><p>How families are planning around air alerts and route changes.</p></div><div class="card"><h3>Making friends after the paperwork</h3><p>Why information is easier to automate than belonging.</p></div></div></section>
+</main>
+<footer><div class="wrap">HERE · Stockholm · Help · Accessibility · Privacy</div></footer>
+<script>
+const page = location.pathname.split('/').pop() || 'index.html';
+document.querySelectorAll('.links a').forEach(a=>{if(a.getAttribute('href')===page)a.classList.add('active')});
+</script>
+</body></html>

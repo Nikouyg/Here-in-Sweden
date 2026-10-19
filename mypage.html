@@ -1,0 +1,118 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My Journey</title><link rel="stylesheet" href="styles.css"></head><body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="HERE home">
+      <div class="logo" aria-hidden="true"><span class="logo-orbit"></span></div>
+      <div><strong>HERE</strong><small>Life • services • community</small></div>
+    </a>
+    <nav class="links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="explore.html">Explore Sweden</a>
+      <a href="community.html">Community</a>
+      <a href="mypage.html">My Page</a>
+      <a href="stories.html">Stories</a>
+      <a href="news.html">News</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+<section class="mypage-hero">
+  <div>
+    <span class="kicker">my page</span>
+    <h1>Your services, decisions and plans.</h1>
+    <p class="lead">A personal view of appointments, housing, language access, community activity and saved preferences.</p>
+  </div>
+  <div class="profile-card">
+    <div class="profile-top">
+      <div class="profile-avatar">SA</div>
+      <div><strong>Sara Ahmed</strong><br><span class="small">Stockholm · profile updated today</span></div>
+    </div>
+    <div class="profile-grid">
+      <div class="profile-stat"><strong>3</strong><br><span class="small">tasks this week</span></div>
+      <div class="profile-stat"><strong>2</strong><br><span class="small">saved services</span></div>
+      <div class="profile-stat"><strong>1</strong><br><span class="small">decision waiting</span></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="card community-membership">
+    <div>
+      <span class="kicker">my community</span>
+      <h3 style="margin-top:10px">Afghans in Sweden</h3>
+      <p>You are already a member. The group has 1.9k members and translation is available when you need it.</p>
+      <span class="small">Next saved event: Dari reading circle · Solna · Thursday 18:30</span>
+    </div>
+    <a class="button secondary" href="community.html">Open group</a>
+  </div>
+</section>
+
+<section class="dashboard">
+  <div class="stack">
+    <div class="widget">
+      <div class="widget-head"><h3>Your week</h3><span class="badge">personal</span></div>
+      <div class="status"><span class="dot good"></span><div><strong>Residence meeting confirmed</strong><br><span class="small">Today 14:30 · Solna Service Centre · live translation available</span></div></div>
+      <div class="status"><span class="dot warn"></span><div><strong>Housing match needs your response</strong><br><span class="small">AI recommendation expires tomorrow · explanation and human review available</span></div></div>
+      <div class="status"><span class="dot"></span><div><strong>Employment orientation</strong><br><span class="small">Friday 10:00 · choose captions, ear audio or human interpreter</span></div></div>
+    </div>
+
+    <div class="widget">
+      <div class="widget-head"><h3>Around you</h3><a class="small" href="explore.html">view city guide →</a></div>
+      <div class="status"><span class="dot good"></span><div><strong>Air quality good</strong><br><span class="small">Stockholm inner city · AQI 34</span></div></div>
+      <div class="status"><span class="dot"></span><div><strong>Closest language access library</strong><br><span class="small">1.2 km · 6 loan glasses available</span></div></div>
+      <div class="status"><span class="dot"></span><div><strong>Newcomer café tonight</strong><br><span class="small">18:00 · mixed language tables · no booking</span></div></div>
+    </div>
+
+    <div class="widget">
+      <div class="widget-head"><h3>From the community</h3><a class="small" href="community.html">open community →</a></div>
+      <div class="status"><div><strong>“Does anyone want to come to the mixed language picnic?”</strong><br><span class="small">Afghans in Sweden · 18 replies</span></div></div>
+      <div class="status"><div><strong>“Kabul next month. Rent AirHalo or buy?”</strong><br><span class="small">Return travel · 24 replies</span></div></div>
+      <div class="status"><div><strong>“I used live captions at my first job interview today.”</strong><br><span class="small">New this month · 41 replies</span></div></div>
+    </div>
+  </div>
+
+  <aside class="stack">
+    <div class="widget">
+      <div class="widget-head"><h3>Helpful right now</h3><span class="small">based on your profile</span></div>
+      <div class="status"><div><strong>Book a human adviser</strong><br><span class="small">Housing, school or work questions</span></div></div>
+      <div class="status"><div><strong>Read public messages in Dari</strong><br><span class="small">Transport, school and healthcare translations ready</span></div></div>
+      <div class="status"><div><strong>Find people near you</strong><br><span class="small">3 meetups within 5 km this week</span></div></div>
+    </div>
+    <div class="soft-note"><strong>Privacy note</strong><br><span class="small">Public translation sessions are not saved unless you choose to keep a phrase or document.</span></div>
+  </aside>
+</section>
+
+<section class="section grid2">
+  <div class="card">
+    <span class="kicker">housing suggestion</span>
+    <h3 style="margin-top:12px">Kista starter apartment</h3>
+    <p>Based on commute time, budget, air quality preference and language access services.</p>
+    <div class="status"><div><strong>Why this match?</strong><br><span class="small">Kista scored highest for service access and rent. Your preference for quieter areas was weighted lower because commute time was marked very important.</span></div></div>
+    <button class="button secondary" onclick="document.getElementById('reviewBox').style.display='block'">Request human review</button>
+    <div id="reviewBox" class="notice" style="display:none;margin-top:14px">A housing adviser will contact you within 48 hours. Your current match stays open.</div>
+  </div>
+
+  <div class="card">
+    <span class="kicker">language settings</span>
+    <h3 style="margin-top:12px">Choose what feels comfortable</h3>
+    <p>Captions, ear audio, simplified Swedish and human support can be combined depending on the situation.</p>
+    <div class="tags"><span>captions on</span><span>Dari preferred</span><span>human review available</span></div>
+  </div>
+</section>
+
+<section class="section grid3">
+  <div class="card"><h3>Work</h3><p>CV support, interview practice and translated workplace onboarding.</p></div>
+  <div class="card"><h3>Healthcare</h3><p>Appointments, medication information and language support options.</p></div>
+  <div class="card"><h3>Family</h3><p>School, childcare and local activity information in your preferred language.</p></div>
+</section>
+</main>
+<script>function ck(e){e.classList.toggle('done');e.textContent=e.classList.contains('done')?'✓':''}</script>
+<footer><div class="wrap">HERE · Stockholm · Help · Accessibility · Privacy</div></footer>
+<script>
+const page = location.pathname.split('/').pop() || 'index.html';
+document.querySelectorAll('.links a').forEach(a=>{if(a.getAttribute('href')===page)a.classList.add('active')});
+</script>
+</body></html>

@@ -1,0 +1,75 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>News</title><link rel="stylesheet" href="styles.css"></head><body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="HERE home">
+      <div class="logo" aria-hidden="true"><span class="logo-orbit"></span></div>
+      <div><strong>HERE</strong><small>Life • services • community</small></div>
+    </a>
+    <nav class="links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="explore.html">Explore Sweden</a>
+      <a href="community.html">Community</a>
+      <a href="mypage.html">My Page</a>
+      <a href="stories.html">Stories</a>
+      <a href="news.html">News</a>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+<section class="page-hero"><div><span class="kicker">news</span><h1>Clean air pricing protest draws hundreds in central Stockholm.</h1><p class="lead">Demonstrators gathered outside the Central Environment Office after three major travel protection providers announced higher subscription prices for 2036.</p><p class="meta">Stockholm</p></div><img src="assets/protest.png" alt="People protesting clean air pricing in central Stockholm"></section>
+
+<section class="section news-grid">
+  <article class="news-card">
+    <img src="assets/protest_interview_v2.png" alt="A protester holding a clean air sign while being interviewed by a reporter in Stockholm">
+    <div class="news-body">
+      <span class="kicker">on the ground</span>
+      <h2>“I should not need a premium plan to visit my parents.”</h2>
+      <p>Among the protesters was 31 year old Samir A., who moved to Sweden six years ago and travels twice a year to visit family in a city that now regularly reaches severe air quality levels.</p>
+      <div class="quote-box">“I understand that equipment costs money. What I do not understand is why the safest level is always the most expensive one. My parents still live there. Going home should not depend on which protection plan I can afford.”</div>
+      <p>Several people at the protest spoke directly with local reporters while holding handmade signs. Organizers said the demonstration was not against clean air technology itself. They were calling for basic travel protection to be included in public mobility and health support for people with close family ties in high pollution regions.</p>
+      <p>Outside the building, passersby stopped to scan the protest group’s public message board. The most shared post of the afternoon read: “Clean air is a right, not a subscription.”</p>
+    </div>
+  </article>
+
+  <aside class="stack">
+    <div class="card">
+      <span class="kicker">what changed today</span>
+      <div class="timeline">
+        <div class="item"><strong>09:15</strong><span>AirHalo Basic monthly plan rises by 14 percent.</span></div>
+        <div class="item"><strong>11:40</strong><span>Three newcomer groups publish a joint statement.</span></div>
+        <div class="item"><strong>14:10</strong><span>Demonstration begins outside the Environment Office.</span></div>
+        <div class="item"><strong>16:20</strong><span>City officials say pricing support will be reviewed next month.</span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="kicker">related</span>
+      <h3>Public translation access expands to 218 service points</h3>
+      <p class="small">Libraries and clinics will add more loan devices before winter.</p>
+    </div>
+  </aside>
+</section>
+
+<section class="section">
+  <h2>Live comments</h2>
+  <div class="card">
+    <div class="comment"><strong>Elena, Södertälje</strong><span class="small">2 min ago</span><p>I use AirHalo only when visiting my mother. Renting should be easier than buying.</p></div>
+    <div class="comment"><strong>Jonas, Stockholm</strong><span class="small">5 min ago</span><p>If clean air support becomes part of public healthcare, who decides which routes qualify?</p></div>
+    <div class="comment"><strong>Amina, Solna</strong><span class="small">8 min ago</span><p>The same question came up with translation glasses. Basic access became public only after people showed how necessary it was.</p></div>
+    <div class="comment"><strong>Rami, Nacka</strong><span class="small">11 min ago</span><p>I support the protest, but I also want to know how maintenance and filters would be funded.</p></div>
+  </div>
+</section>
+
+<section class="section grid3">
+  <div class="card"><span class="kicker">environment</span><h3>Autumn air alerts return earlier this year</h3><p>Several international routes have added air quality warnings to booking systems.</p></div>
+  <div class="card"><span class="kicker">services</span><h3>Human review hours extended</h3><p>Housing and employment services add evening appointments after complaints about automated decisions.</p></div>
+  <div class="card"><span class="kicker">community</span><h3>Local libraries report record demand</h3><p>Translation devices and community rooms remain the most requested services.</p></div>
+</section>
+</main>
+<footer><div class="wrap">HERE · Stockholm · Help · Accessibility · Privacy</div></footer>
+<script>
+const page = location.pathname.split('/').pop() || 'index.html';
+document.querySelectorAll('.links a').forEach(a=>{if(a.getAttribute('href')===page)a.classList.add('active')});
+</script>
+</body></html>
